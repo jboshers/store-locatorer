@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "35b43eebb88bf278ae8ad327b25ea11f",
+    "hash": "da2a13a4b9c8917909c856704e4d86e8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1633,9 +1633,7 @@
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
             "time": "2014-05-22 13:46:01"
-        }
-    ],
-    "packages-dev": [
+        },
         {
             "name": "way/generators",
             "version": "2.6.1",
@@ -1685,6 +1683,7 @@
             "time": "2014-05-27 14:21:26"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
