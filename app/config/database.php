@@ -1,5 +1,4 @@
 <?php
-
 	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 	$host = $url["host"];
 	$username = $url["user"];
@@ -50,6 +49,7 @@ return array(
 	|
 	*/
 
+
 	'connections' => array(
 
 		'sqlite' => array(
@@ -60,14 +60,25 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-      'host'      => $host,
-      'database'  => $database,
-      'username'  => $username,
-      'password'  => $password,
+			'host'      => $host,
+			'database'  => $database,
+			'username'  => $username,
+			'password'  => $password,
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => 'pacha_',
 		),
+
+		// 'mysql' => array(
+		// 	'driver'    => 'mysql',
+		// 	'host'      => 'localhost',
+		// 	'database'  => 'pacha',
+		// 	'username'  => 'root',
+		// 	'password'  => 'root',
+		// 	'charset'   => 'utf8',
+		// 	'collation' => 'utf8_unicode_ci',
+		// 	'prefix'    => 'pacha_',
+		// ),
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
