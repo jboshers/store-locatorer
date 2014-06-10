@@ -10,7 +10,8 @@ class APIController extends \BaseController {
   public function index()
   {
     $locations =  Location::all();
-    return Response::json($locations);
+    // return Response::json($locations);
+    return Response::json($locations, 200, array('Content-Type' => 'application/javascript'));
     // return View::make('locations.index')->withLocations($locations);
   }
 
