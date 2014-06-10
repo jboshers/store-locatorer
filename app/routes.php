@@ -13,3 +13,8 @@
 
 Route::get('/', 'LocationsController@index');
 Route::resource('locations', 'LocationsController');
+
+Route::get('/maptest',  'LocationsController@ajaxTest');
+
+// API MUTHAFUCKA!
+Route::get('/api/getLocations',  'APIController@index');

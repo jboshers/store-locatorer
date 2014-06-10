@@ -92,4 +92,9 @@ class LocationsController extends \BaseController {
 			return Redirect::route('locations.index')->with('message', 'location deleted.');
 	}
 
+	public function ajaxTest()
+	{
+		return View::make('locations.ajax_test');
+	}
+
 }
