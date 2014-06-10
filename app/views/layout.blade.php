@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
+	<title>Pacha Soap Locations!</title>
   {{ HTML::style('css/style.css') }}
 </head>
 <body>
