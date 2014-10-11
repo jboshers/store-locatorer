@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pacha Soap Locations!</title>
+  <link rel=stylesheet href="//cdn.datatables.net/1.10.3/css/jquery.dataTables.min.css" type="text/css" media="screen" >
   {{ HTML::style('css/style.css') }}
 </head>
 <body>
@@ -19,8 +20,10 @@
     @yield('content')
   </div>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.3/js/jquery.dataTables.min.js"></script>
   {{ HTML::script('js/helper_delete.js') }}
   <script>
+  $('#stores').DataTable();
   $('.alert').delay(2000).fadeOut();
   $('#get_coords').on('click', function(){
     var street = $('#address').val();

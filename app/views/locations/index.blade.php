@@ -1,8 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h3>Total Locations: {{count($locations)}}</h3>
- <table>
+ <table id="stores">
     <thead>
       <td>Store Number</td>
       <td>Name</td>
