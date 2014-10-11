@@ -436,7 +436,7 @@ body{
 #stores_length{
   margin-bottom: 20px;
 }
-#dataTables_paginate{
+#stores_paginate{
   background: #fff;
   padding: 8px 10px 10px;
   margin-top: 20px;
