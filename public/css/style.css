@@ -430,6 +430,21 @@ th {
 body{
   background: #4ddbff;
   color: #f5f5f5;
+  font-size: 14px;
+}
+#stores_filter,
+#stores_length{
+  margin-bottom: 20px;
+}
+#dataTables_paginate{
+  background: #fff;
+  padding: 8px 10px 10px;
+  margin-top: 20px;
+}
+#stores_info{
+  background: #fff;
+  padding: 13px;
+  margin-top: 20px;
 }
 h1{
   color:#008fb3;
@@ -456,8 +471,8 @@ table tr td{
   color: #666;
 }
 table thead td{
-  background: #00a3cc;
-  color: #f5f5f5;
+  background: #00a3cc !important;
+  color: #f5f5f5 !important;
 
 }
 .create_btn, input[type="submit"], button{
