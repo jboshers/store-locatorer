@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h1>Total Locations: {{$locations.count}}</h1>
+<h1>Total Locations: {{$locations.allcount}}</h1>
  <table>
     <thead>
       <td>Name</td>
