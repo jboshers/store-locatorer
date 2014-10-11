@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h3 style="float: right;">Total Locations: {{count($locations)}}</h3>
+<h3>Total Locations: {{count($locations)}}</h3>
  <table>
     <thead>
       <td>Store Number</td>
@@ -17,7 +17,7 @@
     </thead>
     @foreach ($locations as $index => $location)
       <tr>
-        <td>{{$index}}</td>
+        <td>{{$index + 1}}</td>
         <td>{{$location -> name}}</td>
         <td>{{$location -> address}}</td>
         <td>{{$location -> city}}</td>

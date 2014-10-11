@@ -433,7 +433,11 @@ body{
 }
 h1{
   color:#008fb3;
-   float: left;
+  float: left;
+}
+h3{
+  color:#008fb3;
+  float: right;
 }
 .wrapper{
   width: 80%;
